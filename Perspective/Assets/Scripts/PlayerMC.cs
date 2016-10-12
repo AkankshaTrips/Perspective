@@ -9,6 +9,7 @@ public class PlayerMC : MonoBehaviour {
 	private Animator anim;
 	private Vector3 movement;
 	private CamMouseLook camera;
+	public Rigidbody playerRigidBody;
 
 	//private int floorMask;
 	//private Rigidbody playerRigidBody;
@@ -16,34 +17,36 @@ public class PlayerMC : MonoBehaviour {
 
 	void Awake () {
 
-		anim = this.gameObject.GetComponent<Animator> ();
+		/*anim = this.gameObject.GetComponent<Animator> ();
 		//floorMask = LayerMask.GetMask ("Floor");
-		//playerRigidBody = GetComponent<Rigidbody> ();
-		camera = Camera.main.GetComponent<CamMouseLook> ();
+		playerRigidBody = GetComponent<Rigidbody> ();
+		camera = Camera.main.GetComponent<CamMouseLook> ();*/
 
 	}
 
 	void Start () {
 		Cursor.visible = false;
 		Cursor.lockState = CursorLockMode.Locked;
-		Cursor.lockState = CursorLockMode.None;
+		//Cursor.lockState = CursorLockMode.Confined;
+	//	Cursor.lockState = CursorLockMode.None;
 	}
-	void Animating (float h, float v) {
+	/*void Animating (float h, float v) {
 		bool walking = h != 0f || v != 0f;
 		if (walking) {
 			anim.SetInteger ("Speed", 2);
 		} else {
 			anim.SetInteger ("Speed", 0);
 		}
-	}
+	}*/
 
 	void Update () {
-		float translation = Input.GetAxis ("Vertical") * speed;
+		/*float translation = Input.GetAxis ("Vertical") * speed;
 		float straffle = Input.GetAxis ("Horizontal") * speed;
 		translation *= Time.deltaTime;
 		straffle *= Time.deltaTime;
 
-		transform.Translate (straffle, 0, translation);
+		transform.Translate (0, 0, translation);
+		//playerRigidBody.MovePosition(new Vector3(straffle, 0, translation));
 		if (Input.GetKeyDown ("escape")) {
 			if (paused) {
 				Time.timeScale = 0;
@@ -52,13 +55,13 @@ public class PlayerMC : MonoBehaviour {
 				paused = false;
 			} else {
 				Time.timeScale = 1;
-				camera.enabled = true;
+				//camera.enabled = true;
 				Cursor.visible = false;
 				paused = true;
 			}
 
 		}
 
-		Animating (translation, straffle);
+		Animating (translation, straffle);*/
 	}
 }

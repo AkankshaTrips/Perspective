@@ -12,6 +12,7 @@ public class CamMouseLook : MonoBehaviour {
 	
 	void Start()
 	{
+
 		character = this.transform.parent.gameObject;
 	}
 	
