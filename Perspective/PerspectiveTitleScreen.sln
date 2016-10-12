@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{28BB08EE-33AB-7DFA-36B6-CCAA6DDFBA8C}") = "PerspectiveTitleScreen", "Assembly-CSharp.csproj", "{012FA8DE-72B7-1223-AB55-815761835DCD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{012FA8DE-72B7-1223-AB55-815761835DCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{012FA8DE-72B7-1223-AB55-815761835DCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{012FA8DE-72B7-1223-AB55-815761835DCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{012FA8DE-72B7-1223-AB55-815761835DCD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
