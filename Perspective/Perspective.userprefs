@@ -1,0 +1,20 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/RestartFix.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Orientation.cs" Line="12" Column="31" />
+      <File FileName="Assets/Scripts/PlayerMC.cs" Line="21" Column="25" />
+      <File FileName="Assets/Scripts/UIManager.cs" Line="5" Column="2" />
+      <File FileName="Assets/Scripts/walking.cs" Line="31" Column="8" />
+      <File FileName="Assets/Scripts/WallNormal.cs" Line="10" Column="5" />
+      <File FileName="Assets/Scripts/MusicManager.cs" Line="22" Column="18" />
+      <File FileName="Assets/Scripts/AudioManager.cs" Line="88" Column="4" />
+      <File FileName="Assets/Scripts/MenuActions.cs" Line="8" Column="3" />
+      <File FileName="Assets/Scripts/RestartFix.cs" Line="22" Column="6" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

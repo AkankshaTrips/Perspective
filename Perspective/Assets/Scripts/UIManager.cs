@@ -4,8 +4,11 @@ using System.Collections;
 public class UIManager : MonoBehaviour {
 	public GameObject pausePanel;
 	public bool isPaused;
+	public Camera camera;
+
 	// Use this for initialization
 	void Start () {
+		//camera = GetComponent<Camera> ();
 		isPaused = false;
 	}
 	
@@ -25,9 +28,11 @@ public class UIManager : MonoBehaviour {
 	void PauseGame(bool state) {
 		if (state) {
 			pausePanel.SetActive(true);
+			camera.enabled = false;
 			Time.timeScale = 0.0f;
 		} else {
 			Time.timeScale = 1.0f;
+			camera.enabled = true;
 			pausePanel.SetActive(false);
 		}
 	}
